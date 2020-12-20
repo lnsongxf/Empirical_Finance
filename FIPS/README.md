@@ -1,0 +1,4 @@
+## Summary
+
+- Three CSV files with some basic FIPS identifying information for US States (`state_fips_master.csv`), Counties (`county_fips_master.csv`), and both together (`state_and_county_fips_master.csv`). I got sick of constantly having to write code to match on one or other of these identifiers in order to merge data files (e.g. for maps). So this can serve as a basis for harmonizing files that use one, some, or some variant of these identifiers. For example, sometimes leading zeros are omitted in the FIPS, sometimes not; sometimes the FIPS is coded in data as one number, sometimes as a character-vector of digits, sometimes as two separate state and county numbers, and so on. The Census also has its own supra-state units (regions and divisions). These files make it easier to merge and match to data indexed in one or other of these ways.
+

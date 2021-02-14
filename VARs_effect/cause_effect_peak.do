@@ -1,3 +1,6 @@
+* Peilin Yang
+* 02/14/2020
+
 import delimited "JSTdatasetR4.csv", encoding(UTF-8) clear
 
 
